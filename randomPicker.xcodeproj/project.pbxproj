@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C30E374B1FF45B97003BF7E1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E374A1FF45B97003BF7E1 /* ResultViewController.swift */; };
+		C322EE121FF4BB2F008FBFD7 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C322EE111FF4BB2F008FBFD7 /* RestaurantModel.swift */; };
+		C33DDD6C1FF770CA0074159C /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = C33DDD6B1FF770C90074159C /* categories.json */; };
+		C36574A21FF702AD00FBE9B9 /* CategoryFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36574A11FF702AD00FBE9B9 /* CategoryFinder.swift */; };
 		C380A6F51FF37178003369A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380A6F41FF37178003369A3 /* AppDelegate.swift */; };
-		C380A6F71FF37178003369A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380A6F61FF37178003369A3 /* ViewController.swift */; };
+		C380A6F71FF37178003369A3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380A6F61FF37178003369A3 /* SearchViewController.swift */; };
 		C380A6FA1FF37178003369A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C380A6F81FF37178003369A3 /* Main.storyboard */; };
 		C380A6FC1FF37178003369A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C380A6FB1FF37178003369A3 /* Assets.xcassets */; };
 		C380A6FF1FF37178003369A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C380A6FD1FF37178003369A3 /* LaunchScreen.storyboard */; };
 		C380A70A1FF37178003369A3 /* randomPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380A7091FF37178003369A3 /* randomPickerTests.swift */; };
 		C380A7151FF37178003369A3 /* randomPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380A7141FF37178003369A3 /* randomPickerUITests.swift */; };
+		C3FAC07F1FF8C17A0032AFDC /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAC07E1FF8C17A0032AFDC /* UIExtension.swift */; };
+		C3FE77D11FF37DB70012C560 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE77D01FF37DB70012C560 /* APIHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C30E374A1FF45B97003BF7E1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		C322EE111FF4BB2F008FBFD7 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		C33DDD6B1FF770C90074159C /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = categories.json; path = ../../../Downloads/categories.json; sourceTree = "<group>"; };
+		C36574A11FF702AD00FBE9B9 /* CategoryFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFinder.swift; sourceTree = "<group>"; };
 		C380A6F11FF37178003369A3 /* randomPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C380A6F41FF37178003369A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C380A6F61FF37178003369A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C380A6F61FF37178003369A3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C380A6F91FF37178003369A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C380A6FB1FF37178003369A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C380A6FE1FF37178003369A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		C380A7101FF37178003369A3 /* randomPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randomPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C380A7141FF37178003369A3 /* randomPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomPickerUITests.swift; sourceTree = "<group>"; };
 		C380A7161FF37178003369A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FAC07E1FF8C17A0032AFDC /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		C3FE77D01FF37DB70012C560 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		C380A6F31FF37178003369A3 /* randomPicker */ = {
 			isa = PBXGroup;
 			children = (
+				C33DDD6B1FF770C90074159C /* categories.json */,
 				C380A6F41FF37178003369A3 /* AppDelegate.swift */,
-				C380A6F61FF37178003369A3 /* ViewController.swift */,
+				C380A6F61FF37178003369A3 /* SearchViewController.swift */,
 				C380A6F81FF37178003369A3 /* Main.storyboard */,
 				C380A6FB1FF37178003369A3 /* Assets.xcassets */,
 				C380A6FD1FF37178003369A3 /* LaunchScreen.storyboard */,
 				C380A7001FF37178003369A3 /* Info.plist */,
+				C3FE77D01FF37DB70012C560 /* APIHandler.swift */,
+				C30E374A1FF45B97003BF7E1 /* ResultViewController.swift */,
+				C322EE111FF4BB2F008FBFD7 /* RestaurantModel.swift */,
+				C36574A11FF702AD00FBE9B9 /* CategoryFinder.swift */,
+				C3FAC07E1FF8C17A0032AFDC /* UIExtension.swift */,
 			);
 			path = randomPicker;
 			sourceTree = "<group>";
@@ -233,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C380A6FF1FF37178003369A3 /* LaunchScreen.storyboard in Resources */,
+				C33DDD6C1FF770CA0074159C /* categories.json in Resources */,
 				C380A6FC1FF37178003369A3 /* Assets.xcassets in Resources */,
 				C380A6FA1FF37178003369A3 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C380A6F71FF37178003369A3 /* ViewController.swift in Sources */,
+				C3FE77D11FF37DB70012C560 /* APIHandler.swift in Sources */,
+				C380A6F71FF37178003369A3 /* SearchViewController.swift in Sources */,
 				C380A6F51FF37178003369A3 /* AppDelegate.swift in Sources */,
+				C3FAC07F1FF8C17A0032AFDC /* UIExtension.swift in Sources */,
+				C36574A21FF702AD00FBE9B9 /* CategoryFinder.swift in Sources */,
+				C30E374B1FF45B97003BF7E1 /* ResultViewController.swift in Sources */,
+				C322EE121FF4BB2F008FBFD7 /* RestaurantModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
